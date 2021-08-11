@@ -1,7 +1,6 @@
 from rest_framework.permissions import AllowAny
 from rest_framework import generics
 from rest_framework import viewsets
-from rest_framework.serializers import Serializer
 from .serializers import TaskSerializer, UserSerializer, PostSerializer
 from .models import Task, Post
 
@@ -38,7 +37,7 @@ class TaskRetrieveView(generics.RetrieveAPIView):
 class TaskViewSet(viewsets.ModelViewSet):
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
-# AllowAnyではないので、JWTokenが要求される
+
 
 
 

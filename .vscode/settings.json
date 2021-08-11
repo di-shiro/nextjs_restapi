@@ -1,4 +1,13 @@
 {
-  "editor.fontFamily": "'OperatorMonoLig-LightItalic', 'Operator Mono Lig', 'Ricty Diminished', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 18
+	"editor.fontFamily": "'OperatorMonoLig-LightItalic', 'Operator Mono Lig', 'Ricty Diminished', Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontSize": 18,
+	"editor.wrappingIndent": "indent",
+	"printcode.tabSize": 4,
+	"indentRainbow.colorOnWhiteSpaceOnly": true,
+	"prettier.tabWidth": 4,
+	"python.condaPath": "/Users/aquarius/.anyenv/envs/pyenv/versions/miniforge3-4.10.1-5/bin",
+	"prettier.useTabs": true,
+	"editor.renderWhitespace": "all",
+	"files.trimTrailingWhitespace": true,
+	"diffEditor.ignoreTrimWhitespace": false
 }
